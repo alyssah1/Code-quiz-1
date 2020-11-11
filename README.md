@@ -23,4 +23,4 @@ THEN I can save my initials and score
 index.html, script.js, style.css
 
 # Helpful links
-![websitelink](https://alyssah1.github.io/Code-quiz/)
+![websitelink](https://alyssah1.github.io/Code-quiz-1/)
