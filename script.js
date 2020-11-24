@@ -207,8 +207,6 @@ function allFinished() {
         }
 
     });
-
-
 }
 
 
