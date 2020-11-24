@@ -186,13 +186,27 @@ function allFinished() {
     newSubmit.textContent = "Submit";
     questionsQuiz.appendChild(newSubmit);
     
-    newSubmit.addEventListener("click", function(event) {
-        event.preventDefault();
+    newSubmit.addEventListener("click", function() {
+       var initials = newInput.value;
+       if (initials === null) {
+        } else {
+            var userScore = {
+                initials: initials,
+                score: timeLeft
+            }
+            var allUsers = localStorage.getItem("allUsers");
+            if (allUsers === null) {
+                allUsers = [];
+            } else{
+                allUsers = JSON.parse(allUsers);
+            }
+            allUsers.push(userScore);
+            var newUser = JSON.stringify(allUsers);
+            localStorage.setItem("allUsers", newUser);
+            location.replace("./highscore.html");
+        }
 
-        
-
-
-    })
+    });
 
 
 }

@@ -10,7 +10,9 @@ clear.addEventListener("click", function() {
     location.reload;
 });
 
+
 // adding event listener to move to the index.html
 backBtn.addEventListener("click", function() {
     location.replace("./index.html");
 })
+
