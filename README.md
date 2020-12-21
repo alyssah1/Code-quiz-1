@@ -23,7 +23,7 @@ THEN I can save my initials and score
 index.html, script.js, style.css
 
 # Helpful links
-[a link](https://alyssah1.github.io/Code-quiz-1/)
+[Websitelink](https://alyssah1.github.io/Code-quiz-1/)
 
 ![screenshot](./Images/1stpage.png)
 
