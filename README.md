@@ -24,3 +24,5 @@ index.html, script.js, style.css
 
 # Helpful links
 ![websitelink](https://alyssah1.github.io/Code-quiz-1/)
+
+![screenshot](https://github.com/alyssah1/Code-quiz-1/blob/main/Website%20images/Screen%20Shot%201st%20page.png)
