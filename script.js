@@ -64,8 +64,7 @@ var questions = [
         answer: "A gas station"
     },
 ];
-//just checking console log
-console.log(questions);
+
 
 //starts the timer when button clicked
 start.addEventListener("click", function () {
@@ -177,27 +176,29 @@ function allFinished() {
     //created an input for user to type initials
     var newInput = document.createElement("input");
     newInput.setAttribute("id", "initials");
+    newInput.setAttribute("type", "text");
     newInput.textContent = "";
     questionsQuiz.appendChild(newInput);
 
     //created a submit button 
     var newSubmit = document.createElement("button");
     newSubmit.setAttribute("id", "Submit");
+    newSubmit.setAttribute("type", "submit");
     newSubmit.textContent = "Submit";
     questionsQuiz.appendChild(newSubmit);
     
     newSubmit.addEventListener("click", function() {
-       var initials = newInput.value;
-       if (initials === null) {
+        var initials = newInput.value;
+        if (initials === null) {
         } else {
             var userScore = {
                 initials: initials,
-                score: timeLeft
+                score: timeDuration
             }
             var allUsers = localStorage.getItem("allUsers");
             if (allUsers === null) {
                 allUsers = [];
-            } else{
+            } else {
                 allUsers = JSON.parse(allUsers);
             }
             allUsers.push(userScore);

@@ -7,7 +7,7 @@ h1 {
 
 p {
     text-align: center;
-   
+
 }
 #startButton {
     background-color: rgb(90, 241, 90);
@@ -59,3 +59,25 @@ li {
 
 }
 
+
+#backBtn{
+    background-color: #3b8cde;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+}
+#clearBtn {
+    background-color: #3b8cde;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
